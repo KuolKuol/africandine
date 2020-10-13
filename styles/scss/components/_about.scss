@@ -1,0 +1,23 @@
+.about {
+    min-height:200px;
+    padding:50px 0;
+    font-size:1.4em;
+    line-height: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;    
+    .container {
+        max-width:1000px;
+        .about__title {
+            font-family: cinzel;
+            font-weight: 600;
+            margin-bottom:1em;
+            text-decoration: underline;
+        }
+        .about__content {
+       
+        }
+    }
+}

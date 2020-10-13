@@ -1,0 +1,61 @@
+.info {
+    // background:linear-gradient(0deg,rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.7)),
+    // url("./image/mural.jpg");
+    // background-position: top;
+    // background-size: cover;
+    // background-attachment: fixed;
+    .container {
+    display: flex;
+    align-content: space-between;
+    justify-content:center;
+    align-items: center;
+    // padding:50px 0 86px;
+    padding:50px 0;
+    .info__group {
+        min-width:250px;
+        text-align: center;
+        .icon {
+            font-size:60px;
+        }
+        .info__title {
+            padding-top:20px;
+            font-size:24px;
+            font-family: "cinzel";
+        }
+        .info__text {
+            padding-top:20px;
+            font-size:15px;
+        }
+    }
+
+    @include media($small){        
+        #info__group__two {
+            margin-top: 50px;
+        }
+        #info__group__three {
+            margin-top: 50px;
+        }
+        flex-wrap:wrap;
+        .info__group {
+            width:100%;
+            padding:0;
+        }
+    }
+
+    @include media($middle){
+        height:300px;
+        #info__group__two {
+            margin: 0 30px;
+        }
+        #info__group__three {
+            // margin-left: 50px;
+        }
+        .info__group *+* {
+            // margin-left:20px;
+        }
+        .info__group {
+            flex:1; 
+        }
+    }
+}
+}

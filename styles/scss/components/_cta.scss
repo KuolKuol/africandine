@@ -1,0 +1,23 @@
+.cta {
+    background-color:black;
+    color:white;
+    height:155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    .cta__title {
+        font-family: "cinzel";
+        font-size:24px;
+    }
+
+    .cta__link {
+        display: inline-block;
+        text-align: center;
+        padding:10px;
+        font-size: 24px;
+        color:white;
+        text-decoration:underline;
+    }
+}
